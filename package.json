@@ -1,33 +1,8 @@
 {
-  "name": "vehicle-company",
+  "name": "abrehot-library",
   "version": "1.0.0",
-  "description": "<a name=\"readme-top\"></a>",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.27.5",
-    "hint": "^7.1.8",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yonasle/Abrehot-Library.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Yonasle/Abrehot-Library/issues"
-  },
-  "homepage": "https://github.com/Yonasle/Abrehot-Library#readme",
   "dependencies": {
     "abab": "^2.0.6",
     "abbrev": "^1.1.1",
@@ -613,5 +588,30 @@
     "yargs-parser": "^20.2.9",
     "yauzl": "^2.10.0",
     "zwitch": "^1.0.5"
-  }
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.8",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yonasle/Abrehot-Library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yonasle/Abrehot-Library/issues"
+  },
+  "homepage": "https://github.com/Yonasle/Abrehot-Library#readme"
 }
