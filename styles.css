@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .bg-gray {
@@ -12,7 +12,7 @@ body {
 }
 
 .font {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 header {
@@ -41,8 +41,8 @@ nav {
 }
 
 .introduction > h2 {
-  background-image: url(images/fire.jpg);
-  -webkit-background-clip: text; /* For Safari/Chrome */
+  background-image: url("images/fire.jpg");
+  background-clip: text; /* For Safari/Chrome */
   -webkit-text-fill-color: transparent;
   background-size: 125px;
   font-size: 52px !important;
@@ -52,7 +52,7 @@ nav {
 .introduction div {
   border: 2px solid white;
   outline: 3px solid white;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .tbm-header {
@@ -60,7 +60,7 @@ nav {
   font-weight: 600;
   color: #5e5e5e;
   text-align-last: left;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   padding-top: 7%;
 }
 
@@ -82,7 +82,7 @@ input:not([type="submit"]) {
 input[type="submit"] {
   display: block;
   margin: 20px auto 0;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   font-weight: bolder;
   color: #ececec;
   border: none;
@@ -118,7 +118,7 @@ input[type="submit"] {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  background-color: rgba(60, 63, 70, 0.5);
+  background-color: rgb(60 63 70 / 50%);
   margin: 10px 5px;
 }
 
@@ -128,7 +128,7 @@ input[type="submit"] {
 }
 
 footer h3 {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   font-weight: 800;
 }
 
@@ -183,7 +183,7 @@ footer h3 {
 .about-intro p {
   text-align: justify;
   text-align-last: center;
-  -moz-text-align-last: center;
+  text-align-last: center;
   padding: 3%;
 }
 
@@ -210,7 +210,7 @@ footer h3 {
 .overlay {
   position: relative;
   margin: 20px;
-  background-color: rgb(245, 122, 89);
+  background-color: rgb(245 122 89);
 }
 
 .overlay img {
@@ -310,7 +310,7 @@ footer h3 {
 .mobile-menu {
   height: 100%;
   margin: 0;
-  background-color: rgba(233, 219, 217, 0.8);
+  background-color: rgb(233 219 217 / 80%);
   display: none;
   position: fixed;
   width: 100%;
@@ -380,7 +380,7 @@ footer h3 {
 
 .last-section {
   background-color: #414246;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   padding-top: 30px;
   padding-bottom: 40px;
 }
@@ -395,7 +395,7 @@ footer {
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (width >= 768px) {
   .fa-sharp.fa-solid.fa-bars.fa-xl {
     display: none;
   }
@@ -419,9 +419,9 @@ footer {
   }
 
   .second-nav h2 {
-    font-family: "Lato", sans-serif;
-    background-image: url(images/fire.jpg);
-    -webkit-background-clip: text; /* For Safari/Chrome */
+    font-family: Lato, sans-serif;
+    background-image: url("images/fire.jpg");
+    background-clip: text; /* For Safari/Chrome */
     -webkit-text-fill-color: transparent;
     background-size: 125px;
     font-size: 32px !important;
@@ -436,7 +436,7 @@ footer {
   }
 
   .second-nav ul li {
-    padding: 10px 10px;
+    padding: 10px;
   }
 
   .second-nav a {
